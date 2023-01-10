@@ -3,7 +3,8 @@ const button = document.getElementById('button')
 const form = document.getElementById('form')
 const resultMessageBox = document.getElementById('result-message')
 
-// Funznione che crea una parola inserendo i caratteri in ordine inverso
+/* FUNZIONE*/
+// Crea una parola inserendo i caratteri in ordine inverso
 function reverseWord(word){
     let result = ''
 

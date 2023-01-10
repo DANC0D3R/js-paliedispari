@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Daniele Minieri">
+
         <title>Pari e Dispari</title>
     </head>
     <body>
+        <main>
+            <h2>Scegli il numero da 1 a 5 e pari o dispari</h2>
+            <form id="form">
+                <input type="number" min="1" max="5" id="user-number">
+                <select id="even-odd">
+                <option value="even">Pari</option>
+                <option value="odd">Dispari</option>
+                </select>
+                <button id="button">Gioca</button>
+            </form>
 
-
-        
+            <h2>Il vincitore è:</h2>
+            <div>
+                <span id="calculation"></span>
+                <h3 id="winner"></h3>
+            </div>
+        </main>
         <!-- Script -->
         <script type="text/javascript" src="js/script.js"></script>
     </body>
-    <!-- Crediti DM -->
 </html>
